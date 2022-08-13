@@ -1,0 +1,19 @@
+import java.util.*;
+public class Main {
+     public static void main(String args[]){
+             //take input from user of radius, so
+         Scanner sc = new Scanner(System.in);
+         System.out.println("Please, Enter your Value For Radius : ");
+            //declare int.
+         int r = sc.nextInt();
+            // we know formula for calculating area of circle i.e. A= pie * r^2
+             // so we can write 3.14 * r * r
+         double area = 3.14*(r*r);
+
+         //print area
+
+         System.out.println("Area of circle is : "+ area);
+
+
+    }
+ }
