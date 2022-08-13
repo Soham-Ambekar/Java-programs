@@ -1,0 +1,14 @@
+
+import java.util.*;
+public class Main {
+     public static void main(String[] args){
+         Scanner sc = new Scanner(System.in);
+         System.out.println("Enter Value for one side of triangle : ");
+         int a = sc.nextInt();
+         //Perimeter = a + a + a = 3a
+
+         double perimeter = a*3;
+
+         System.out.println("Perimeter of Equilateral Triangle is :"+perimeter);
+     }
+ }
