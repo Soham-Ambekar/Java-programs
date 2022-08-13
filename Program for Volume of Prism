@@ -1,0 +1,15 @@
+import java.util.*;
+public class Main {
+     public static void main(String[] args){
+         Scanner sc = new Scanner(System.in);
+         System.out.println("Enter Height of Prism : ");
+         double h = sc.nextDouble();
+
+
+         System.out.println("Enter area of base of Prism : ");
+         double b= sc.nextDouble();
+
+         double volume = h*b;
+         System.out.println("Volume of Prism is: "+volume);
+     }
+ }
