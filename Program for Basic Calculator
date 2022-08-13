@@ -1,0 +1,52 @@
+
+import java.util.*;
+
+public class Main {
+    public static void main(String [] args){
+        Scanner sc = new Scanner(System.in);
+        //1. Make a Calculator. Take 2 numbers (a & b) from the user and an
+        //operation as follows :
+        //1 : + (Addition) a + b
+        //● 2 : - (Subtraction) a - b
+        //● 3 : * (Multiplication) a * b
+        //● 4 : / (Division) a / b
+        //● 5 : % (Modulo or remainder) a % b
+        //Calculate the result according to the operation given and
+        //display it to the user.
+
+        System.out.println("Enter your 1st number to calculate : ");
+        int a = sc.nextInt();
+
+        System.out.println("Enter your 2nd number to calculate : ");
+        int b = sc.nextInt();
+
+        System.out.println(" Press 1 for ADDITION \n Press 2 for Substraction \n Press 3 for Multiplication \n Press 4 for DIVISION \n Press 5 for Remainder ");
+        System.out.println("Please type number");
+        int num = sc.nextInt();
+
+        switch(num){
+            case 1 :
+                System.out.println("Addition is : ");
+                System.out.println(a+b);
+                break;
+            case 2 :
+                System.out.println("Substraction is : ");
+                System.out.println(a-b);
+                break;
+            case 3 :
+                System.out.println("Multiplication is : ");
+                System.out.println(a*b);
+                break;
+            case 4 :
+                System.out.println("Division is : ");
+                System.out.println(a/b);
+                break;
+            case 5 :
+                System.out.println("Remainder is : ");
+                System.out.println(a%b);
+                break;
+            default:
+                System.out.println("no any matches");
+        }
+
+    }
