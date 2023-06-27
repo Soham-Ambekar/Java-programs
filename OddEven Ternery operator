@@ -1,0 +1,10 @@
+public class terneryOp {
+    public static void main(String args[]){
+    
+        int a=1;
+        String type = ((a%2)==0)?"Even":"Odd";
+        System.out.println(type);
+    }
+
+    
+}
