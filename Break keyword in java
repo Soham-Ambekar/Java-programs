@@ -1,0 +1,13 @@
+public class breakloop {
+    public static void main(String args[]){
+        for(int i =0;i<=7;i++){
+            if(i==5){
+                break;  // break is a keyword used to terminate the loop at given codnition
+            }
+            System.out.print(i+" ");
+        }
+        
+        System.out.println("I am out of the loop.......");       
+    }
+    
+}
