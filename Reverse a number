@@ -1,3 +1,5 @@
+//1st approach..
+
 public class reverseNumber {
     public static void main(String args[]){
         int n = 152525;
@@ -8,6 +10,24 @@ public class reverseNumber {
             n= n/10;
         }
         
+    }
+    
+}
+
+
+
+//2nd approach...
+
+public class RreverseAndSave {
+    public static void main(String args[]){
+        int n = 18099;
+        int rev =0;
+        while(n>0){
+            int Ld = n% 10;
+            rev = (rev*10)+Ld;
+            n = n/10;
+        }
+        System.out.println(rev);
     }
     
 }
